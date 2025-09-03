@@ -1,0 +1,11 @@
+models:
+  - name: llm
+    engine: azure
+    type: main
+    model: gpt-35-turbo-instruct
+    parameters:
+      azure_endpoint: "https://d-and-a-openai.openai.azure.com"
+      api_version: "2025-01-01-preview"
+      deployment_name: "gpt-35-turbo-instruct"
+      api_key: "OPENAI_AZURE_KEY"
+
